@@ -4,7 +4,7 @@ from tkinter import *
 window = tk.Tk()
 
 window.geometry("650x650")
-window.config(bg="#BE361A")
+window.config(bg="blue")
 window.resizable(width=False, height=False)
 window.title("Simple Email Slicer")
 
@@ -32,15 +32,15 @@ def reset_all():
 
 start = Label(text="Welcome to our Email Slicer", font=12, foreground="white", background="black")
 Info = Label(text="Enter your email ID click the done button!\n The application will extract your username and domain "
-                  "name.", foreground="white", background="#BE361A", font=10)
+                  "name.", foreground="white", background="blue", font=10)
 emailId = Label(foreground="white", font=10, background="black", text="Enter Your Email Id: ")
 result_label = Label(font=10, foreground="white", background="black", text="The results are as follows: ")
-empty_label = Label(background="#BE361A")
-empty_label1 = Label(background="#BE361A")
-empty_label2 = Label(background="#BE361A")
-empty_label3 = Label(background="#BE361A")
-empty_label4 = Label(background="#BE361A")
-empty_label5 = Label(background="#BE361A")
+empty_label = Label(background="blue")
+empty_label1 = Label(background="blue")
+empty_label2 = Label(background="blue")
+empty_label3 = Label(background="blue")
+empty_label4 = Label(background="blue")
+empty_label5 = Label(background="blue")
 
 e1 = StringVar()
 entry = Entry(font=11, width=50, justify="center", textvariable=e1)
