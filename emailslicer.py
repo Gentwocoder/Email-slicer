@@ -45,8 +45,8 @@ empty_label5 = Label(background="blue")
 e1 = StringVar()
 entry = Entry(font=11, width=50, justify="center", textvariable=e1)
 
-btn = Button(text="Slice", font=11, command=result)
-reset = Button(text="Reset", font=11, command=reset_all)
+btn = Button(text="Slice", font=11, bg="red", command=result)
+reset = Button(text="Reset", font=11, br="red", command=reset_all)
 
 text_box = Text(height=5, width=40)
 
